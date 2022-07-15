@@ -2,7 +2,10 @@
     "name": "node-red_training",
     "description": "Learn node red with using Connect nodes in examples ",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "@objectif-lune/node-red-contrib-connect": "0.9.6",
+        "node-red-contrib-watchdirectory": "1.0.14"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_Learning.json",
